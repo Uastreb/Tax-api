@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackAsTool>False</PackAsTool>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <RepositoryUrl>https://git.softmix.by/v.makatrov/tax-api.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://git.softmix.by/v.makatrov/tax-api</PackageProjectUrl>
+    <PackageReleaseNotes>Реализована работа с Апи налоговой системы</PackageReleaseNotes>
+    <Description>Получает данные о организации из Апи налоговой РБ</Description>
+    <Company>Smb</Company>
+    <Title>Smb_Tax_Api</Title>
+    <Authors>Vadim</Authors>
+    <RootNamespace>SMB_TAX</RootNamespace>
+    <AssemblyName>SMB_TAX</AssemblyName>
+    <Version>1.0.2</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.9" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.32" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.32" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="3.1.32" />
+  </ItemGroup>
+
+</Project>
